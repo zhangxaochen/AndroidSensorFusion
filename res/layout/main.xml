@@ -126,10 +126,10 @@
         android:id="@+id/SensorFusionView"
         android:layout_width="800dp"
         android:layout_height="800dp"
-        android:padding="0dp"
+        android:layout_gravity="center_horizontal"
         android:layout_weight="100"
         android:background="@android:color/white"
-        android:layout_gravity="center_horizontal"
-  />
+        android:onClick="onBubbleLevelClicked"
+        android:padding="0dp" />
 
 </LinearLayout>
